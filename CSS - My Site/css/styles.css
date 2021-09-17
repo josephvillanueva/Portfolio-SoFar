@@ -1,0 +1,126 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin:50px auto 15px auto;
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+    color:#417e7e;
+    line-height: 7rem;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    color:#417e7e;
+    font-weight: normal;
+}
+
+h3{
+    color:#417e7e;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin-top: 50px;
+}
+
+.bottom-container{
+    margin: 50px auto 0px auto ;
+    background-color: #66BFBF;
+    padding: 20px;
+    color: white;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 600px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 80px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.ModelImage{
+    scale: 60%;
+    float: left;
+    margin: auto 30px auto auto;
+}
+
+.CodeImage{
+    scale: 90%;
+    float: right;
+    margin: auto auto auto 30px;
+}
+
+hr{
+    border-style: dotted;
+    border-top: 0;
+    border-width: 8px;
+    width:50px;
+    margin: 50px auto;
+    color: #c1c7c7;
+
+}
+
+.btn {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px;
+    background-color: #66BFBF;
+    -webkit-box-shadow: 1px 1px 10px 0 #000000;
+    -moz-box-shadow: 1px 1px 10px 0 #000000;
+    box-shadow: 1px 1px 10px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: #58A3A3;
+    border: solid #66BFBF 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+.footer-link{
+    margin: auto 5px;
+}
